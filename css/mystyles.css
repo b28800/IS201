@@ -1,0 +1,82 @@
+/* Overall body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #e9ecef;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Lists styling */
+ol, ul {
+    list-style-position: inside;
+    text-align: left;
+}
+
+/* Image and video styling */
+img, iframe, .tableauPlaceholder {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 4px;
+}
+
+iframe {
+    height: 315px;
+}
+
+/* Tableau graph styling */
+.tableauPlaceholder {
+    width: 100%;
+    max-width: 1000px; /* You can adjust this as needed */
+}
+
+/* Footer styling */
+footer {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
